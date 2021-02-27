@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NIAR_Library", "NIAR_Library\NIAR_Library.csproj", "{E5A8F49C-8DB9-4236-9A6D-74DF67F0D6C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5A8F49C-8DB9-4236-9A6D-74DF67F0D6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A8F49C-8DB9-4236-9A6D-74DF67F0D6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A8F49C-8DB9-4236-9A6D-74DF67F0D6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A8F49C-8DB9-4236-9A6D-74DF67F0D6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E9E7205-1EA1-434D-BAE2-AE25F0F4FFB8}
+	EndGlobalSection
+EndGlobal
