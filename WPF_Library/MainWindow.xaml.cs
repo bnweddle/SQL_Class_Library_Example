@@ -17,10 +17,13 @@ namespace WPF_Library
 {
     public partial class MainWindow : Window
     {
+        Repository repo = new Repository();
+
         public MainWindow()
         {
             InitializeComponent();
 
+            uxBookData.ItemsSource = repo.AvailableBooks();
             // Fill the Book Grid with all the Books from the Database
             // Fill the ComboBox with all the Members
             // Views
