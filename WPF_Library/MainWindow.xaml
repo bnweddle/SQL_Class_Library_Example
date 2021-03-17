@@ -16,7 +16,7 @@
             <RowDefinition/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
-        <TextBox x:Name="uxSearch" Grid.Row="0" TextWrapping="Wrap" Text="Search.." VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" DataContextChanged="UxSearch_DataContextChanged"/>
+        <TextBox x:Name="uxSearch" Grid.Row="0" TextWrapping="Wrap" Text="Search.." VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" TextChanged="UxSearch_TextChanged" DataContextChanged="UxSearch_DataContextChanged"/>
         <Button x:Name="uxCheckOut" Content="Check Out" Grid.Row="2" FontSize="30" Click="UxCheckOut_Click"/>
         <Button x:Name="uxReturn" Content="Return Book" Grid.Column="1" Grid.Row="2" FontSize="30" Click="UxReturn_Click"/>
         <DataGrid x:Name="uxBookData" Grid.Row="1" FontSize="30"/>
