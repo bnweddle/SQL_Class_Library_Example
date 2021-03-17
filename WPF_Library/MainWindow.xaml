@@ -19,9 +19,9 @@
         <TextBox x:Name="uxSearch" Grid.Row="0" TextWrapping="Wrap" Text="Search.." VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" TextChanged="UxSearch_TextChanged" DataContextChanged="UxSearch_DataContextChanged"/>
         <Button x:Name="uxCheckOut" Content="Check Out" Grid.Row="2" FontSize="30" Click="UxCheckOut_Click"/>
         <Button x:Name="uxReturn" Content="Return Book" Grid.Column="1" Grid.Row="2" FontSize="30" Click="UxReturn_Click"/>
-        <DataGrid x:Name="uxBookData" Grid.Row="1" FontSize="30"/>
+        <DataGrid x:Name="uxBookData" Grid.Row="1" FontSize="30" ColumnWidth="*"/>
         <ComboBox x:Name="uxMemberList" Grid.Column="1" FontSize="30" SelectionChanged="UxMemberList_SelectionChanged"/>
-        <DataGrid x:Name="uxItemsOut" Grid.Column="1" Grid.Row="1" />
+        <DataGrid x:Name="uxItemsOut" Grid.Column="1" Grid.Row="1" FontSize="30" ColumnWidth="*"/>
 
     </Grid>
 </Window>

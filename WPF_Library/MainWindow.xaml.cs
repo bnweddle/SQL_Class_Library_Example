@@ -56,7 +56,7 @@ namespace WPF_Library
             // Return a book with the Selected Book from the ItemsOut List
             // Update Procedure
             int memberID = repo.Members().Keys.ElementAt(uxMemberList.SelectedIndex);
-            int bookID = Convert.ToInt32(uxItemsOut.SelectedValue.ToString().Split(',').First().Substring(1));
+            int bookID = ((ItemsOut)uxItemsOut.SelectedValue).BookID;
             repo.ReturnBook(bookID);
 
             uxBookData.ItemsSource = repo.AvailableBooks();
